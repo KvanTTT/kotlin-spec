@@ -22,4 +22,4 @@ gpp -H ./index.md | pandoc \
   ${FORMAT_PANDOC_OPTIONS} \
   ${TOC_PANDOC_OPTIONS} \
   ${HTML_ASSETS_OPTIONS} \
--o ${BUILD_DIR}/html/full.html
+-o ${BUILD_DIR}/html/kotlin-spec.html
